@@ -183,7 +183,7 @@ end
 
 Steak.Hint = function(text, Time)
 	if Steak.cg():FindFirstChild("SteakHint") then Steak.cg():FindFirstChild("SteakHint"):Destroy() end
-	local Hint = Steak.Instance("Hint", {
+	local Hint = Instance.cr("Hint", {
 		Name = "SteakHint",
 		Parent = Steak.cg(),
 		Text = text
